@@ -8,10 +8,14 @@ import numpy as np
 import os
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Conv2D, MaxPooling2D, MaxPool2D, \
+from tensorflow.keras.layers import Conv2D, MaxPooling2D, \
 Flatten, Dense, Activation, Dropout,LeakyReLU
 from PIL import Image
 from fungsi import make_model
+import cvnn.layers as complex_layers
+from tensorflow.keras import datasets, layers, models
+from keras.preprocessing.image import ImageDataGenerator
+import cvnn.layers as complex_layers
 
 # =[Variabel Global]=============================
 
