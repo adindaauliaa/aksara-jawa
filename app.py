@@ -17,6 +17,8 @@ from tensorflow.keras import datasets, layers, models
 from keras.preprocessing.image import ImageDataGenerator
 import cvnn.layers as complex_layers
 
+from pyngrok import ngrok
+
 # =[Variabel Global]=============================
 
 app = Flask(__name__, static_url_path='/static')
